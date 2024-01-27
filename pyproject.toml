@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "textual-4015-mre"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "0.46.0"
+pytest = "^7.4.4"
+pytest-asyncio = ">=0.20.3,<0.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
